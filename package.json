@@ -1,0 +1,25 @@
+{
+  "name": "sas4ta-nosql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexGalichenko/sas4ta-nosql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexGalichenko/sas4ta-nosql/issues"
+  },
+  "homepage": "https://github.com/AlexGalichenko/sas4ta-nosql#readme",
+  "dependencies": {
+    "chess.js": "^0.12.1",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1"
+  }
+}
