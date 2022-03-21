@@ -17,4 +17,3 @@ jobs:
           NODE_ENV: production
           X_API_KEY: ${{ secrets.X_API_KEY }}
           MONGO_URI: ${{ secrets.MONGO_URI }}
-          PORT: 8000
