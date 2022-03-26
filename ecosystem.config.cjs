@@ -8,7 +8,8 @@ module.exports = {
             env: {
                 "NODE_ENV": "development",
                 "MONO_URI": process.env.MONGO_URI,
-                "X_API_KEY": process.env.X_API_KEY
+                "X_API_KEY": process.env.X_API_KEY,
+                "PORT": process.env.PORT
             }
         }
     ]
