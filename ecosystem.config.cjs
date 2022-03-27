@@ -7,7 +7,7 @@ module.exports = {
             exec_mode : "cluster",
             env: {
                 "NODE_ENV": "development",
-                "MONO_URI": process.env.MONGO_URI,
+                "MONGO_URI": process.env.MONGO_URI,
                 "X_API_KEY": process.env.X_API_KEY,
                 "PORT": process.env.PORT
             }
